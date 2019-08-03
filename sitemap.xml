@@ -6,12 +6,30 @@
 
                 <loc>https://shantoisonline.com/</loc>
 
-                <lastmod>2019-08-01</lastmod>
+                <lastmod>2019-08-03</lastmod>
 
                 <changefreq>monthly</changefreq>
 
                 <priority>1.00</priority>
 
             </url>
+
+
+            <url>
+
+                <loc>https://shantoisonline.com/bn/</loc>
+
+                <lastmod>2019-08-03</lastmod>
+
+                <changefreq>monthly</changefreq>
+
+                <priority>1.00</priority>
+
+            </url>
+
+
+
+
+
 
         </urlset>
