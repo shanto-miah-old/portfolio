@@ -1,23 +1,698 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>404 Page Not Found!</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#F43333">
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="manifest" href="site.webmanifest">
-</head>
-<body bgcolor="#FC7E7E">
-	<h1 align="center" style="font-size: 92px; color: #ffffff;">404</h1>
-	<hr>
-	<p align="center" style="font-size: 26px; color: #ffffff;">your requested page is not found. please go to <a href="https://shantoisonline.com">Home</a> Or contact with <a href="mailto:contact@shantoisonline.com">contact@shantoisonline.com</a></p>
 
-	<br>
-	<br>
-	<br>
-	<p align="center">Copyright &copy 2019 shantoisonline.com. All Rights Reserved</p>
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+	 <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="স্বাগতম, আমার নাম শান্ত মিয়া। আমি একজন প্রফেশনাল ওয়েব ডেভলাপার, ইউআই/ইউএক্স ডিজাইনার এবং এসইও এক্সস্পার্ট।">
+    <meta name="keywords" content="shantoisonline,শান্ত,শান্ত মিয়া,ওয়েব ডেভলাপার,বাংলাদেশী ওয়েব ডেভলাপার,ওয়েব ডিজাইনার,বাংলাদেশী ওয়ের ডিজাইনার,এসইও এক্সস্পার্ট,বাংলাদেশী এসইও এক্সপার্ট, ছয়ফুল্লাকান্দি,পাড়াতলী,বাঞ্ছারারামপুর,শাহ রাহাত আলী শাহ্">
+    <meta name="author" content="শান্ত মিয়া">
+    <meta property="og:image" content="../assets/images/shanto.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#66B9E8">
+
+
+
+    <!-- Site title -->
+	<title>শান্ত মিয়া | একজন প্রফেশনাল ওয়েব ডেভলাপার, ইউআই/ইউএক্স ডিজাইনার এবং এসইও এক্সস্পার্ট | shantoisonline</title>
+	<!-- css for preloader -->
+	<style type="text/css">
+		body{
+		}
+		#preloader {
+			width: 100%;
+			height: 100vh;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			position: fixed;
+			z-index: 999999;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #f1f1f1;
+		}
+
+		.spinner {
+			width: 50px;
+			height: 40px;
+			text-align: center;
+			font-size: 10px;
+		}
+
+		.spinner > div {
+			background-color: #333;
+			height: 100%;
+			width: 6px;
+			display: inline-block;
+
+			-webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+			animation: sk-stretchdelay 1.2s infinite ease-in-out;
+		}
+
+		.spinner .rect2 {
+			-webkit-animation-delay: -1.1s;
+			animation-delay: -1.1s;
+		}
+
+		.spinner .rect3 {
+			-webkit-animation-delay: -1.0s;
+			animation-delay: -1.0s;
+		}
+
+		.spinner .rect4 {
+			-webkit-animation-delay: -0.9s;
+			animation-delay: -0.9s;
+		}
+
+		.spinner .rect5 {
+			-webkit-animation-delay: -0.8s;
+			animation-delay: -0.8s;
+		}
+
+		@-webkit-keyframes sk-stretchdelay {
+			0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+			20% { -webkit-transform: scaleY(1.0) }
+		}
+
+		@keyframes sk-stretchdelay {
+			0%, 40%, 100% { 
+			transform: scaleY(0.4);
+			-webkit-transform: scaleY(0.4);
+			}  20% { 
+			transform: scaleY(1.0);
+			-webkit-transform: scaleY(1.0);
+			}
+		}
+
+	</style>
+
+	<!-- Custom css -->
+	<link rel="stylesheet" type="text/css" href="../assets/custom/css/style.css">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- Background Gradient -->
+	<link rel="stylesheet" type="text/css" href="../assets/gradient/css/gradient.css">
+
+	<!-- font-awesome -->
+	<link rel="stylesheet" type="text/css" href="../assets/ionicons/css/ionicons.min.css">
+
+
+	<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+	<link rel="manifest" href="../site.webmanifest">
+	
+</head>
+
+<body>
+
+	<!-- preloader -->
+	<section id="preloader">
+		<div class="spinner">
+			<div class="rect1"></div>
+			<div class="rect2"></div>
+			<div class="rect3"></div>
+			<div class="rect4"></div>
+			<div class="rect5"></div>
+		</div>
+	</section>
+	 <!-- end preloader -->
+
+	<!-- top header -->
+	<section class="bg-dark">
+		<ul class="nav justify-content-end">
+			<li class="nav-item">
+				<a class="nav-link" href="https://shantoisonline.com">English</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link disabled" href="https://shantoisonline.com/bn">Bangla</a>
+			</li>
+		</ul>
+	</section>
+	<!-- top header -->
+
+	<!-- header menu area -->
+	<header class="header">
+
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="#"><strong>শান্ত মিয়া</strong></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a href="#intro" class="nav-link" id="intro">ইন্ট্রো</a>
+					</li>
+					<li class="nav-item">
+						<a href="#skills" class="nav-link" id="skills">অভিঙ্গতা</a>
+					</li>
+					<li class="nav-item">
+						<a href="#services" class="nav-link" id="services">সেবা সমূহ</a>
+					</li>
+					<li class="nav-item">
+						<a href="#testimonial" class="nav-link" id="testimonial">রেটিং</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link" id="contact">যোগাযোগ</a>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+
+	</header>
+	<!-- end header menu area -->
+
+
+	<!-- home banner area -->
+	<section id="intro-area">
+
+		<div class="container mt-5">
+
+			<div class="card shadow-lg animated animate-box">
+
+				<div class="row">
+
+					<div class="col-md-5">
+
+						<img src="../assets/images/shanto.jpg" alt="শান্ত মিয়া" class="img-fluid rounded w-100 h-100">
+
+					</div> <!-- /.col-md-5 -->
+
+					<div class="col-md-7 p-3">
+
+						<div class="p-2">
+							<h4>HELLO EVERYBODY, I AM</h4>
+							<h1 class="display-4 font-weight-bold">শান্ত মিয়া</h1>
+							<h5>প্রফেশনাল ওয়েব ডেভলাপার, ইউআই/ইউএক্স ডিজাইনার এবং এসইও এক্সস্পার্ট</h5>
+							<p>
+								আমার নাম শান্ত মিয়া।আমি একজন প্রফেশনাল ওয়েব ডেভলাপার, ইউআই/ইউএক্স ডিজাইনার এবং এসইও এক্সস্পার্ট। আমি ৩ বছর যাবৎ এটির সাথে কাজ করছি। আপনি যদি চান তবে আমি আপানার কাজ করতে আগ্রহী। আমাকে শুধু আপনার তথ্যগুলো ইমেল করুন। আমি যত তাড়াতাড়ি সম্ভব উত্তর দিবো।
+							</p>
+						</div> <!-- /.m-2 -->
+
+						<div class="list-group mb-3">
+							<a href="#date" class="list-group-item"><span class="ion ion-android-calendar"></span> ২১-ডিসেম্বর-১৯৯৯</a>
+							<a href="tel:+8801640012144" class="list-group-item"><span class="ion ion-ios-telephone"> +8801640012144</span></a>
+							<a href="mailto:contact@shantoisonline.com" class="list-group-item"><span class="ion ion-ios-email"> contact@shantoisonline.com</span></a>
+						</div> <!-- /.list-group -->
+
+						<address class="m-2">
+							<h3><span class="ion ion-ios-location"> ঠিকানা</span></h3>
+							<p class="font-weight-light">
+								ছয়ফুল্লাকান্দি, বাঞ্ছারামপুর, ব্রাহ্মনবাড়িয়া<br>
+								ছয়ফুল্লাকান্দি-৩৪১৩<br>
+								বাংলাদেশ
+							</p>
+						</address>
+
+					</div><!-- /.col-md-7 -->
+					
+				</div> <!-- /.row -->
+
+			</div> <!-- /.card -->
+
+		</div> <!-- /.container -->
+
+	</section>
+	<!-- end home banner area -->
+
+
+
+	<!-- My Skills -->
+	<section class="bg-light pt-5" id="skills-area" style="margin-top: -100px;">
+
+		<div class="container pt-5">
+
+			<div class="row pt-5">
+
+				<div class="col-12 pt-5 pb-5 text-center">
+					<h1><span class="ion ion-hammer"></span> আমার অভিঙ্গতা</h1>
+					<p class="lead">
+						নিচে আমার অভিঙ্গতাগুলো দেয়া আছে
+					</p>
+				</div> <!-- /.col-12 -->
+
+				<div class="col-md-6 col-lg-4 animated animate-box">
+					<div class="card mb-3">
+						<div class="dody m-3 text-center">
+							<div class="progress blue">
+								<span class="progress-left">
+		                    		<span class="progress-bar"></span>
+		                		</span>
+				                <span class="progress-right">
+				                    <span class="progress-bar"></span>
+				                </span>
+				                <div class="progress-value"><span class="ion ion-social-html5"></span></div>
+							</div>
+
+							<h3 class="pt-3">HTML 5</h3>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+
+
+				<div class="col-md-6 col-lg-4 animated animate-box">
+					<div class="card mb-3">
+						<div class="dody m-3 text-center">
+							<div class="progress blue">
+								<span class="progress-left">
+		                    		<span class="progress-bar"></span>
+		                		</span>
+				                <span class="progress-right">
+				                    <span class="progress-bar"></span>
+				                </span>
+				                <div class="progress-value"><span class="ion ion-social-css3"></span></div>
+							</div>
+
+							<h3 class="pt-3">CSS 3</h3>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+
+				<div class="col-md-6 col-lg-4 animated animate-box">
+					<div class="card mb-3">
+						<div class="dody m-3 text-center">
+							<div class="progress yellow">
+								<span class="progress-left">
+		                    		<span class="progress-bar"></span>
+		                		</span>
+				                <span class="progress-right">
+				                    <span class="progress-bar"></span>
+				                </span>
+				                <div class="progress-value"><span class="ion-social-javascript"></span></div>
+							</div>
+
+							<h3 class="pt-3">JAVASCRIPT</h3>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+
+				<div class="col-md-6 col-lg-4 animated animate-box">
+					<div class="card mb-3">
+						<div class="dody m-3 text-center">
+							<div class="progress blue">
+								<span class="progress-left">
+		                    		<span class="progress-bar"></span>
+		                		</span>
+				                <span class="progress-right">
+				                    <span class="progress-bar"></span>
+				                </span>
+				                <div class="progress-value"><span class="ico ion-social-buffer"></span></div>
+							</div>
+
+							<h3 class="pt-3">BOOTSTRAP</h3>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+
+				<div class="col-md-6 col-lg-4 animated animate-box">
+					<div class="card mb-3">
+						<div class="dody m-3 text-center">
+							<div class="progress green">
+								<span class="progress-left">
+		                    		<span class="progress-bar"></span>
+		                		</span>
+				                <span class="progress-right">
+				                    <span class="progress-bar"></span>
+				                </span>
+				                <div class="progress-value"><span class="ico ion-social-nodejs"></span></div>
+							</div>
+							<h3 class="pt-3">JQUERY</h3>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+
+				<div class="col-md-6 col-lg-4 animated animate-box">
+					<div class="card mb-3">
+						<div class="dody m-3 text-center">
+							<div class="progress blue">
+								<span class="progress-left">
+		                    		<span class="progress-bar"></span>
+		                		</span>
+				                <span class="progress-right">
+				                    <span class="progress-bar"></span>
+				                </span>
+				                <div class="progress-value"><samp>PHP</samp></div>
+							</div>
+							<h3 class="pt-3">PHP</h3>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+
+				<div class="col-md-6 col-lg-4 animated animate-box">
+					<div class="card mb-3">
+						<div class="dody m-3 text-center">
+							<div class="progress green">
+								<span class="progress-left">
+		                    		<span class="progress-bar"></span>
+		                		</span>
+				                <span class="progress-right">
+				                    <span class="progress-bar"></span>
+				                </span>
+				                <div class="progress-value"><span class="ion ion-fireball"></span></div>
+							</div>
+							<h3 class="pt-3">CODELGNITER</h3>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+
+				<div class="col-md-6 col-lg-4 animated animate-box">
+					<div class="card mb-3">
+						<div class="dody m-3 text-center">
+							<div class="progress pink">
+								<span class="progress-left">
+		                    		<span class="progress-bar"></span>
+		                		</span>
+				                <span class="progress-right">
+				                    <span class="progress-bar"></span>
+				                </span>
+				                <div class="progress-value"><span class="ion ion-social-wordpress"></span></div>
+							</div>
+							<h3 class="pt-3">WORDPRESS</h3>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+
+				<div class="col-md-6 col-lg-4 animated animate-box">
+					<div class="card mb-3">
+						<div class="dody m-3 text-center">
+							<div class="progress blue">
+								<span class="progress-left">
+		                    		<span class="progress-bar"></span>
+		                		</span>
+				                <span class="progress-right">
+				                    <span class="progress-bar"></span>
+				                </span>
+				                <div class="progress-value"><span class="ion ion-stats-bars"></span></div>
+							</div>
+							<h3 class="pt-3">SEO</h3>
+						</div>
+					</div>
+				</div> <!-- /.col -->
+
+
+			</div> <!-- /.row -->
+
+		</div> <!-- /.container -->
+
+	</section>
+	<!-- My Skills -->
+
+
+
+	<!-- OFFERINGS -->
+	<section class="bg-light" id="services-area">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-12 pt-5 pb-5 text-center">
+					<h1><span class="ion ion-coffee"></span> সেবা সমূহ</h1>
+					<p class="lead">
+						আমি সবসময় আমার গ্রাহকদেরকে সর্বোচ্চ মানের পন্য সর্বরাহ করার চেষ্টা করি
+					</p>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="card mb-3 animated animate-box">
+						<div class="bg-info dusty-grass-gradient text-center p-5">
+							<span class="ion ion-laptop display-1 text-light"></span>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Responsive Design</h5>
+						 	<p class="card-text">Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones).</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="card mb-3 animated animate-box">
+						<div class="bg-info ripe-malinka-gradient text-center p-5">
+							<span class="ion ion-ios-settings-strong display-1 text-light"></span>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Easy Customization</h5>
+						 	<p class="card-text">Our product is easy to Customiz. Because, we use well documantation on our all products.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="card mb-3 animated animate-box">
+						<div class="bg-info warm-flame-gradient text-center p-5">
+							<span class="ion ion-android-bulb display-1 text-light"></span>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Creative Design</h5>
+						 	<p class="card-text">We alowes searv unique, effective and memorable products.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="card mb-3 animated animate-box">
+						<div class="bg-info blue-gradient text-center p-5">
+							<span class="ion ion-bookmark display-1 text-light"></span>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">User Friendly</h5>
+						 	<p class="card-text">Our all product is easy to use and maintaines. Thats why it is User Friendly.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="card mb-3 animated animate-box">
+						<div class="bg-info aqua-gradient text-center p-5">
+							<span class="ion ion-clock display-1 text-light"></span>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Retina Ready</h5>
+						 	<p class="card-text">We respect our clients time. So we always try to work on time.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="card mb-3 animated animate-box">
+						<div class="bg-info night-fade-gradient text-center p-5">
+							<span class="ion ion-android-document display-1 text-light"></span>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Well Documentation</h5>
+						 	<p class="card-text">Our all products include well and good documentation. Thats help you improve your product quickly.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!-- OFFERINGS -->
+
+	<!-- TESTIMONIALS -->
+	<section class="bg-light" id="testimonial-area">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-12 text-center pt-5 pb-5">
+					<h1><span class="ion ion-android-favorite"></span> আমার রেটিং</h1>
+					<p class="lead">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+				</div>
+
+				<div class="col-md-6">
+					<div class="card mb-3 animated animate-box">
+						<div class="card-body">
+							<h3 class="card-title">Lorem ipsum</h3>
+							<p class="card-text border-left border-primary pl-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure autem est rerum exercitationem, illum, porro temporibus, veritatis atque iste earum, nisi praesentium? Molestias vitae neque soluta. Temporibus alias pariatur nemo!</p>
+							<a href="#" class="text-warning">
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star-half"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="card mb-3 animated animate-box">
+						<div class="card-body">
+							<h3 class="card-title">Lorem ipsum</h3>
+							<p class="card-text border-left border-primary pl-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure autem est rerum exercitationem, illum, porro temporibus, veritatis atque iste earum, nisi praesentium? Molestias vitae neque soluta. Temporibus alias pariatur nemo!</p>
+							<a href="#" class="text-warning">
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star-half"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="card mb-3 animated animate-box">
+						<div class="card-body">
+							<h3 class="card-title">Lorem ipsum</h3>
+							<p class="card-text border-left border-primary pl-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure autem est rerum exercitationem, illum, porro temporibus, veritatis atque iste earum, nisi praesentium? Molestias vitae neque soluta. Temporibus alias pariatur nemo!</p>
+							<a href="#" class="text-warning">
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star-half"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="card mb-3 animated animate-box">
+						<div class="card-body">
+							<h3 class="card-title">Lorem ipsum</h3>
+							<p class="card-text border-left border-primary pl-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure autem est rerum exercitationem, illum, porro temporibus, veritatis atque iste earum, nisi praesentium? Molestias vitae neque soluta. Temporibus alias pariatur nemo!</p>
+							<a href="#" class="text-warning">
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star"></span>
+								<span class="ion ion-ios-star-half"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+	</section>
+	<!-- TESTIMONIALS -->
+
+	<!-- Contact form -->
+	<section id="contact-area">
+
+		<div class="container pt-5 pb-3 animated animate-box">
+			<div class="row">
+
+				<div class="col-md-4 text-light">
+					<h1><span class="ion ion-chatbubbles"></span> যোগাযোগ</h1>
+				</div>
+
+				<div class="col-md-8">
+					<form>
+						<div class="form-group">
+							<label for="name">নাম:</label>
+							<input type="text" id="name" placeholder="Enter your name..." class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label for="subject">বিষয়:</label>
+							<input type="test" id="subject" placeholder="Enter your subject" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label for="body">বিবরণ:</label>
+							<textarea class="form-control" id="body" rows="5">এখানে আপনার বিবরণ দিন...</textarea>
+						</div>
+
+						<div class="text-center">
+							<a class="btn btn-block btn-outline-light" id="submit">পাঠান</a>
+						</div>
+					</form>
+				</div>
+
+			</div> <!--  /.row -->
+		</div>
+
+	</section>
+	<!-- Contact form -->
+
+
+
+
+	<footer class="footer bg-dark text-light pt-5 pb-3">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<address class="m-2">
+
+						<h3><span class="ion ion-ios-location"> ঠিকানা</span></h3>
+						<p class="font-weight-light">
+								ছয়ফুল্লাকান্দি, বাঞ্ছারামপুর, ব্রাহ্মনবাড়িয়া<br>
+								ছয়ফুল্লাকান্দি-৩৪১৩<br>
+								বাংলাদেশ
+							</p>
+
+						<div class="list-group">
+							<a href="tel:+8801640012144"><span class="ion ion-ios-telephone"> +8801647007210</span></a>
+							<a href="mailto:contact@shantoisonline.com"><span class="ion ion-ios-email"> contact@shantoisonline.com</span></a>
+						</div>
+
+					</address>
+				</div>
+
+				<div class="col-md-6">
+					<span class="font-weight-light">কপিরাইট &copy; ২০১৯ shantoisonline.com এ সকল তথ্য সংরক্ষিত</span>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+		
+	<!-- Social Links -->
+	<section>
+				
+		<div class="social-links">
+			
+			<div class="btn-group-vertical">
+				<a href="https://facebook.com/coctiger101" class="btn btn-outline-warning"><span class="ion ion-social-facebook-outline"></span></a>
+				<a href="#" class="btn btn-outline-warning"><span class="ion ion-social-twitter-outline"></span></a>
+				<a href="#" class="btn btn-outline-warning"><span class="ionicons ion-social-instagram-outline"></span></a>
+				<a href="#" class="btn btn-outline-warning"><span class="ion ion-social-linkedin-outline"></span></a>
+			</div>	
+		</div>
+
+	</section>
+	<!-- Social Links -->
+
+	<!-- Go Top -->
+	<section>
+		<div class="go-top">
+			<button class="gotop btn btn-outline-primary"><span class="ion ion-android-arrow-up"></span></button>
+		</div>
+	</section>
+	<!-- Go Top -->
+
+
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Proper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+	<!-- bootstrap -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<!-- Waypoints -->
+	<script src="../assets/waypoints/js/jquery.waypoints.min.js"></script>
+	<!-- main js -->
+	<script src="../assets/custom/js/main.js"></script>
+
 </body>
 </html>
